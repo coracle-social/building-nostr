@@ -1,4 +1,11 @@
 #!/bin/bash
 
 composer global exec ibis-next pdf
-composer global exec ibis-next epub
+pandoc content/book.md \
+  --toc \
+  --epub-title-page=false \
+  --epub-cover-image=assets/cover.png \
+  -M title:"Building Nostr" \
+  -M author:hodlbod \
+  -M language:en-US \
+  -o export/building-nostr.epub
