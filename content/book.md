@@ -28,7 +28,7 @@ As a result, we have a state of rent-seeking in which the users who contribute a
 
 In the fifteen years since this was written, the internet has only become more predatory, and proprietary. Everywhere you go, you're being tracked — maybe for the purposes of understanding your behavior to serve you ads, maybe for reasons more convoluted, but always in the interest of the ones doing the tracking.
 
-This isn't to say the internet isn't a net positive to those who use it. The internet is the single most successful technology in human history for promoting access to information, alternative community, and trade. But it is not what it should be. Reforming the internet requires active investment from those who stand the gain or lose the most from how it evolves — its users. No one can do this for us; *we* have to hold companies and platforms accountable ourselves. And in order to do that, we need to understand why censorship happens.
+This isn't to say the internet isn't a net positive to those who use it. The internet is the single most successful technology in human history for promoting access to information, alternative community, and trade. But it is not what it should be. Reforming the internet requires active investment from those who stand to gain or lose the most from how it evolves — its users. No one can do this for us; *we* have to hold companies and platforms accountable ourselves. And in order to do that, we need to understand why censorship happens.
 
 Censorship is not the product of mere arbitrary exercise of power, but of incentives. In authoritarian regimes, censorship is implemented to protect the regime's power. In business, censorship is implemented to protect the business' revenue.
 
@@ -58,7 +58,7 @@ This is particularly true because users are progressively getting less and worse
 
 ### A Path Forward
 
-This slide isn't inevitable. But it's also human nature — everyone wants something for nothing, and so internet users have voluntarily given up their free will to gain connectivity, entertainment, and efficiency. Simply pushing back is not enough — the problem is structural, and time has allowed its beneficiaries to entrench their position.
+This decline isn't inevitable. But it's also human nature — everyone wants something for nothing, and so internet users have voluntarily given up their free will to gain connectivity, entertainment, and efficiency. Simply pushing back is not enough — the problem is structural, and time has allowed its beneficiaries to entrench their position.
 
 This problem needs more than a technical solution — politics, culture, community, and capital all have roles to play here. Nostr's role is to offer tools that individuals can use according to their own values, and for their own interests. Nostr makes it possible for internet users to preserve their own digital sovereignty and hold tech platforms accountable.
 
@@ -475,7 +475,7 @@ One solution to this problem that is frequently proposed is to supplement implic
 
 This approach can work in certain contexts like reviews for products or services. But in most cases, getting users to publish such explicit attestations is difficult to incentivize. A good example of this is PGP which, despite the enthusiasm nerds have for building trust graphs, has failed to be widely adopted by non-technical users. The reason for this is that the creation of these attestations has no immediate utility — they are entirely instrumental, requiring up-front investment in order to achieve their purpose. In contrast, follows, likes, and replies all have their own immediate, intuitive incentive.
 
-For this reason, webs of trust will always be more or less implicit, and rely on careful and qualified data analysis. Just because someone is good at recommending recipies does not mean you should trust their political opinions. This is especially true when differentiating between different trust contexts. Trust derived from follow graphs may be very useful for identifying spam or impersonation, but might not be useful for assessing whether someone is safe to meet in a dark alley.
+For this reason, webs of trust will always be more or less implicit, and rely on careful and qualified data analysis. Just because someone is good at recommending recipes does not mean you should trust their political opinions. This is especially true when differentiating between different trust contexts. Trust derived from follow graphs may be very useful for identifying spam or impersonation, but might not be useful for assessing whether someone is safe to meet in a dark alley.
 
 Digital representation of social trust is inherently weaker than authentic social trust, because it is predicated only on the subset of information that can be collected. Major factors in assessing trust in real life (such as physical appearance, credit score, or criminal record) might be entirely absent in a digital setting. This is especially true for new users who don't yet have any attestations from other users about the authenticity or value of their activity.
 
@@ -775,7 +775,7 @@ Both the protocol and implementations will ultimately need to provide affordance
 
 Currently, the only way to synchronize events to a new relay is to download all involved events and re-publish them manually, which can be fairly expensive in terms of bandwidth. A new primitive for asking a relay to synchronize certain relays from a peer would be a useful optimization. Similarly, there aren't currently any protocol affordances for requesting eviction of events — neither [NIP 62](https://github.com/nostr-protocol/nips/blob/master/62.md) nor [NIP 09](https://github.com/nostr-protocol/nips/blob/master/09.md) quite fit the bill.
 
-Synchronization is also currently absent from most (or all) implementations. In the future, clients might do this in the background on behalf of their users when relay selections change, and community admin tools might include synchronization affordances for community relays. Alternatively, watchtowers could be used to actively synchrnonize data according to certain heuristics. Users might even be able to pay these services to ensure that their content is properly available.
+Synchronization is also currently absent from most (or all) implementations. In the future, clients might do this in the background on behalf of their users when relay selections change, and community admin tools might include synchronization affordances for community relays. Alternatively, watchtowers could be used to actively synchronize data according to certain heuristics. Users might even be able to pay these services to ensure that their content is properly available.
 
 ### Relays as Transport
 
@@ -799,7 +799,7 @@ This allows for the same kind of heuristic used for relay selection to be applie
 
 Blossom applies the same pattern pioneered by Nostr of interchangeable protocol servers to media storage. Another example is Cashu Mints, which speak the Cashu protocol. This pattern is not unique to the Nostr protocol ecosystem either - Git, ActivityPub, FTP, XMPP, and many other internet protocols also do this, but Nostr is an exceptionally clear example of how useful this pattern is, especially in conjunction with signed data.
 
-### Relay as Proxies
+### Relays as Proxies
 
 There is a different kind of relay on the nostr network, which is worth knowing about: proxies.
 
@@ -1102,7 +1102,7 @@ Micropayments are not inherently social; there are some use cases that may not b
 
 Money is most commonly used to pay for goods and services. A more obvious statement could hardly be made, but given that the previous section was all about paying for social status (which is neither a good nor a service), it seemed worth repeating.
 
-In the software world, this generally takes the form of puchasing a software product which the user intends to interact with directly. This creates an asymmetric payoff for products that are user-facing vs software libraries that are invisible to the user. This is a well-known problem, and has resulted in [attempts](https://opensourcepledge.com/) to support open-source developers by asking businesses to pledge a certain amount of support.
+In the software world, this generally takes the form of purchasing a software product which the user intends to interact with directly. This creates an asymmetric payoff for products that are user-facing vs software libraries that are invisible to the user. This is a well-known problem, and has resulted in [attempts](https://opensourcepledge.com/) to support open-source developers by asking businesses to pledge a certain amount of support.
 
 This system *could* work, in the same way that patronage works; businesses that do support open source can use such donations as a tool for self-promotion. But given that donations are entirely voluntary, and because large businesses are part of the problem Nostr is attempting to solve, this approach has its limits.
 
@@ -1184,7 +1184,7 @@ Communities also exist in community with one another — to the extent that memb
 
 ### Digital Architecture
 
-When writing software for communities, we are creating *digital spaces*. Just as physical spaces must be architected to acommodate the activity they're intended to facilitate, digital spaces must be designed around the type of people and activity that will inhabit them.
+When writing software for communities, we are creating *digital spaces*. Just as physical spaces must be architected to accommodate the activity they're intended to facilitate, digital spaces must be designed around the type of people and activity that will inhabit them.
 
 Spaces (even digital ones) are not abstract — they necessarily have certain particularities. I think technologists can often fall into the trap of thinking that just because software is infinitely malleable, so are humans. To the extent that a community has certain characteristics, software must be opinionated in supporting those. For the same reason, a given digital space will not be appropriate for every community.
 
@@ -1398,7 +1398,7 @@ Nostr is inspired by and builds on Scuttlebutt's successes.
 
 [Pubky](https://www.pubky.org/) is a social protocol created by John Carvalho, which uses cryptographic identity and home servers.
 
-There are two parts to Pubkey. First, cryptographic identities are used to create and maintain entries on the [Mainline DHT](https://en.wikipedia.org/wiki/Mainline_DHT) in order to route requests to the correct server. The Mainline DHT is the most used DHT in existence and is highly Sybil-resistant, which makes it a much better index than Nostr relays can provide.
+There are two parts to Pubky. First, cryptographic identities are used to create and maintain entries on the [Mainline DHT](https://en.wikipedia.org/wiki/Mainline_DHT) in order to route requests to the correct server. The Mainline DHT is the most used DHT in existence and is highly Sybil-resistant, which makes it a much better index than Nostr relays can provide.
 
 On Nostr, indexes are simply relays that store a particular kind of event. This works ok, but is an area where Nostr might borrow from Pubky in order to improve the resilience of Nostr bootstrapping. Unfortunately, Mainline requires the use of a different elliptic curve, and so a different DHT will need to be used or Nostr keys will have to be adapted to whatever curve Mainline uses.
 
@@ -1414,7 +1414,7 @@ But in practice, Bluesky has only managed to re-invent centralized social media 
 
 Because of this, Bluesky's relays and app views are mostly (if not entirely) run by Bluesky itself. This in turn allows them to implement censorship, ban users, and provide premium features like account verification.
 
-Blue Sky seems to be turning out to be the same kind of next generation monolithic social media platform with all the same problems — but with a more sophisticated architecture.
+Bluesky seems to be turning out to be the same kind of next generation monolithic social media platform with all the same problems — but with a more sophisticated architecture.
 
 ### What Makes Nostr Different
 
