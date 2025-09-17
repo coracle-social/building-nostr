@@ -36,7 +36,7 @@ Traditionally, products are sold directly to customers, who then get access to t
 
 But consumer software is an entirely different story. If your users are only there to improve their quality of life through access to entertainment or communication, and the marginal cost of production trends toward zero for digital goods, then the price will also trend toward zero because competitors can always offer the same product at a lower price.
 
-Combine that with the imperative for platforms to aggressively acquire users, and you get a strong downward pressure on the upfront pricing of software products. "Network effect" is the idea that a network's value does not grow linearly with the number of users, but quadratically with the number of *connections between users*.
+Combine that with the imperative for platforms to aggressively acquire users, and you get a strong downward pressure on the upfront pricing of software products. "Network effect" is the idea that a network's value does not grow linearly with the number of users, but quadratically, because the key metric is the number of *connections between users*.
 
 Building a large network requires significant resources in order to fund growth or stay ahead of competitors. These resources in turn must be provided by people with capital. As a result, businesses that rely on scaling network effects are typically funded by investors and oriented at a return on investment. This includes social media platforms and similar businesses, such as search engines, marketplaces, and entertainment platforms.
 
