@@ -750,7 +750,7 @@ Properly implementing robust relay selections across the many heuristics, bootst
 
 There's one more wrinkle to relay selections which needs to be addressed before we're done here. What happens if the relays selected by a given heuristic change over time? This most commonly happens when a user changes his outbox relays, but it can occur for any other relay selection heuristic. Normally this problem is ignored or overlooked in implementations, but because nostr relays are not intended to be trusted either now or perpetually, having a story for how to manage this problem is an essential part of any complete implementation.
 
-Luckily, the solution is actually very simple in principle. Because events are signed, they can simply be replicated to the relays that are expected to be storing them withouth having to do anything complex, like establish a chain of custody from one relay to another.
+Luckily, the solution is actually very simple in principle. Because events are signed, they can simply be replicated to the relays that are expected to be storing them without having to do anything complex, like establish a chain of custody from one relay to another.
 
 In an open system like Nostr, no one can force anyone else to do the right thing, which means that the smooth functioning of the system depends on incentive structures. In order for an event to be discoverable, heuristics for locating it need to be anticipated by someone. But who exactly is responsible for sending events to the right place? The obvious answer would be the event author, but that's not actually correct. The person responsible for putting events in the correct place is the person *who wants the event to be discoverable in that place*.
 
